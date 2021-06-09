@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 10px 0 10px 10px;
+
+  h2 {
+    margin-top: 10px;
+  }
+
+  #example {
+    display: flex;
+    flex-wrap: wrap;
+
+    .block {
+      padding: 0 10px 0 0;
+      margin: 0 10px 10px 0;
+      border: 1px solid;
+      cursor: pointer;
+    }
+  }
+
+  #json {
+    border: 2px solid;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 80vw;
+    resize: both;
+    overflow: auto;
+  }
+}

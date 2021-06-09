@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Prop To Object</title>
+</head>
+<body>
+<div class="container">
+    <h2>Example</h2>
+    <div id="example"></div>
+
+    <h2>Import csv</h2>
+    <label>
+        <input type="file" id="upload" accept="text/csv"/>
+    </label>
+    <h2>Manual input</h2>
+    <form id="my-form">
+        <label>
+            Key
+            <input style="min-width: 30vw" type="text" id="prop" placeholder="add new prop ex: user.name"/>
+        </label>
+        <label>
+            Value
+            <input style="min-width: 30vw" type="text" id="value" placeholder="John Wick"/>
+        </label>
+        <button type="submit">add</button>
+    </form>
+    <h2>Output json</h2>
+    <pre id="json">{}</pre>
+</div>
+</body>
+</html>
