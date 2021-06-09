@@ -33,7 +33,6 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Map Prop To Object',
             template: path.resolve(__dirname, 'index.html')
         }),
         new CopyPlugin({
