@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "webpack serve --config ./webpack.dev.js",
     "build": "webpack --config ./webpack.prod.js",
-    "deploy": "ng build --prod --base-href https://ttquang1063750.github.io/mapPropToObject/  && ngh -no-silent"
+    "deploy": "npm run build  && ngh -no-silent"
   },
   "keywords": [],
   "author": "",
